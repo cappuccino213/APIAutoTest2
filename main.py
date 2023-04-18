@@ -7,4 +7,6 @@
 import pytest
 
 if __name__ == "__main__":
-	pytest.main(["-s", "-v", "./test_script"])
+	# pytest.main(["-s", "-v", "./test/test_fixture_demo.py"])
+	# pytest.main(["-v","./test/test_xpass.py"])
+	pytest.main(["-v"])

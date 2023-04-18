@@ -13,6 +13,7 @@ import requests
 from data_source import DataSource
 
 
+@pytest.mark.http_request
 class TestHttpBase:
 	logger = logging.getLogger(__name__)
 	logging.basicConfig(level=logging.INFO)
